@@ -1,0 +1,33 @@
+.nav {
+  background: #282828;
+  padding: 0.1rem 0rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navigation {
+  display: flex;
+  margin: 1rem 7rem;
+  justify-content: space-between;
+  color: white;
+}
+.cap {
+  font-family: "Lobster", "Dancing Script";
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.navigation ul {
+  margin-right: 60px;
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: white;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #1b1b1b;
+}
+
+@import "./welcomePage.scss";
+@import "./styleFaqSection.scss";
+@import "./styleServiceSection.scss";
+@import "./Nav.scss";
+@import "./OurWork.scss";
+@import "./movie.scss";
+@import "./wave.scss";
+@import "./slider.scss";
+@import "./contact.scss";

@@ -1,0 +1,51 @@
+.movie {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.movie img {
+  max-height: 90vh;
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+}
+
+.movieTitle {
+  color: white;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.awards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.awardComp {
+  min-height: 80vh;
+  display: flex;
+  margin: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  //   margin: 3rem 0rem;
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+}
+
+.awardsDescription {
+  margin-top: 0px;
+  color: white;
+}
+
+.awardsTitle {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+
+// .awards .rule {
+//   background: #23d997;
+// }
